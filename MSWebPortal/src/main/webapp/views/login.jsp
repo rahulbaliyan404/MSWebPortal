@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1>This is using for testing purpose.</h1>
+<h1>This is login related page, which is using tools.</h1>
 
 </body>
 </html>
