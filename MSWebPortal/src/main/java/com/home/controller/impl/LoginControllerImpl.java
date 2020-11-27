@@ -18,16 +18,10 @@ public class LoginControllerImpl implements LoginController {
 	public ModelAndView getLoginPage() {
 		return new ModelAndView("login");
 	}
-
+	
 	@Override
 	public String saveUser(LoginBean loginBean) {
 		String message;
-
-		LoginBean bean = new LoginBean();
-		bean.setId(1);
-		bean.setName("Rahul");
-		bean.setPassword("123");
-
 		message = loginLogic.saveUser(loginBean);
 		if (message != null) {
 			return "200";
