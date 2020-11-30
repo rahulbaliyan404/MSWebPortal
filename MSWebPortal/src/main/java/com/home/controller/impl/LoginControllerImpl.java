@@ -29,4 +29,22 @@ public class LoginControllerImpl implements LoginController {
 		return "300";
 	}
 
+	@Override
+	public String getUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateUser(LoginBean loginBean) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
